@@ -31,7 +31,7 @@
         <url>http://18.222.198.143:8081/artifactory/Maven</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>central</id>
         <name>Ansible-Server-snapshots</name>
         <url>http://18.222.198.143:8081/artifactory/Maven</url>
     </snapshotRepository>
