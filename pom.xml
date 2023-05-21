@@ -6,7 +6,7 @@
 
   <groupId>Vinodh</groupId>
   <artifactId>Tutes</artifactId>
-  <version>111.0-SNAPSHOT</version>
+  <version>113.0-SNAPSHOT</version>
 
 
   <properties>
@@ -24,16 +24,17 @@
     </dependency>
   </dependencies>
   
+  
   <distributionManagement>
     <repository>
         <id>central</id>
-        <name>S37-Batch-releases</name>
-        <url>http://18.191.212.94:8081/artifactory/vmtutes-repo</url>
+        <name>Ansible-Server-releases</name>
+        <url>http://18.222.198.143:8081/artifactory/Maven</url>
     </repository>
     <snapshotRepository>
-        <id>central</id>
-        <name>S37-Batch-snapshots</name>
-        <url>http://18.191.212.94:8081/artifactory/vmtutes-repo</url>
+        <id>snapshots</id>
+        <name>Ansible-Server-snapshots</name>
+        <url>http://18.222.198.143:8081/artifactory/Maven</url>
     </snapshotRepository>
 </distributionManagement>
 
